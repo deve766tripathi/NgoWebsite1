@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar background">
+    <ul class="nav-list">
+      <div class="logo"><img src="Screenshot (26).png" alt="logo"></div>
+      <li><a href="htmlpart.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="donate.html">Donate</a></li>
+      <li><a href="contect.html">Contact Us</a></li>
+      <!-- <li><a href="team.html"></a> </li> -->
+    </ul>
+    <div class="rightNav">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sn" onclick="handleSearch()">Search</button>
+    </div>
+  </nav>
+  <div class="bz">
+    <h2 class="hy">Registration Form</h2>
+    <br><br>
+    <form class="asd" id="registrationForm">
+      <label class="ffg" for="name">Name:</label>
+      
+      <input class="lo" type="text" id="name" required>
+      <br>
+      <br> 
+      <label class="ffg" for="email">Email:</label>
+      
+      <input class="lo" type="email" id="email" required>
+      <br>
+      <br> 
+      <label class="ffg" for="mobile">Mobile Number:</label>
+      
+      <input class="lo"type="tel" id="mobile" required>
+      <br> <br>
+      <label class="ffg" for="password">Password:</label>
+      
+      <input class="lo" type="password" id="password" required>
+      <br> <br>
+      <button type="submit">Register</button>
+    </form>
+    <br>
+    <div id="submissionMessage"></div>
+  </div>
+  <footer class="background">
+    <p class="text-footer">Copyright &copy; 2027 WWW.BESTWEBSITE.COM - All Rights Reserved by BEST</p>
+  </footer>
+  <script src="resg.js"></script>
+</body>
+</html>
